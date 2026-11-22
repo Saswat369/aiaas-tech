@@ -49,3 +49,41 @@
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
 }
+
+.hero{
+background:
+radial-gradient(circle at 15% 20%, rgba(88,101,242,.30), transparent 25%),
+radial-gradient(circle at 85% 30%, rgba(0,212,255,.18), transparent 25%),
+radial-gradient(circle at 50% 80%, rgba(168,85,247,.15), transparent 30%),
+#050816 !important;
+}
+
+.hero-art{
+transform:scale(1.08);
+filter:drop-shadow(0 0 50px rgba(131,102,255,.25));
+}
+
+.capability-card,
+.product-card,
+.contact-form{
+border-radius:18px !important;
+backdrop-filter:blur(20px);
+box-shadow:
+0 20px 60px rgba(0,0,0,.35),
+inset 0 1px 0 rgba(255,255,255,.04);
+}
+
+.capability-card:hover,
+.product-card:hover{
+transform:translateY(-8px);
+transition:all .25s ease;
+box-shadow:
+0 25px 80px rgba(108,92,231,.18),
+0 0 0 1px rgba(184,171,255,.15);
+}
+
+.site-header{
+background:rgba(5,8,22,.75) !important;
+backdrop-filter:blur(24px);
+}
+
